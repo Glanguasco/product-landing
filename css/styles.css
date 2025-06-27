@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Fraunces", serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+header {
+    border: 5px solid red;
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+
+header > img {
+    height: 50px;
+    justify-content: center;
+}
+.container-buttons > button{
+    background-color: red;
+    height: 35px;
+    width: 115px;
+    border: none;
+    border-radius: 50px;
+}
+.container-buttons>:last-child{
+    background-color: blue;
+    border: 2px solid purple
+    color: burlywood;
+}
+header > nav {
+    border:2px solid blue;
+    display: flex;
+    align-items:center;
+    gap: 10px;	
+    justify-self: center;
+    
+
+}
+
+section {
+    border:2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;	
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
